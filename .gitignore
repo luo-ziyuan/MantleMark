@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build products
+build/
+dist/
+*.so
+*.dylib
+*.dll
+
+# Local environments
+.env
+.venv/
+venv/
+env/
+
+# Editor/system files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Data, logs, and experiment outputs
+data/
+logs/
+logs_tifs/
+outputs/
+workspace/
+trial*/
+results/
+results_*/
+data_response/
+results_response/
+
+# Large model/render artifacts
+*.pth
+*.pt
+*.ckpt
+*.ply
+*.npy
+*.npz
+*.mp4
+*.mov
+*.tar
+*.tar.gz
+*.zip
+
+# Notebook/runtime noise
+.ipynb_checkpoints/
+*.ipynb
+
+# Secrets
+service_account.json
+credentials.json
+*.pem
