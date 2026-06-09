@@ -74,8 +74,6 @@ python w_detection_from_image_save_image_MF.py \
   --n_test 200
 ```
 
-The default detector is `--detector band_zero`. The previous matched-filter detector is available with `--detector matched_filter`.
-
 For TensoRF, use `main_tensoRF.py` instead of `main_nerf_watermark.py`.
 
 ## 3DGS Example
